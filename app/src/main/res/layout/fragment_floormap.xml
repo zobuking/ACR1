@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".floormap">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+
+        android:layout_marginTop="20dp"
+        android:layout_width="86dp"
+        android:layout_height="61dp"
+        android:src="@drawable/acr" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="FLOOR MAP"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+
+
+
+
+    <EditText
+
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:hint="Input floor width"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:hint="Input floor height"
+        android:inputType="numberDecimal"
+        />
+
+
+    <Button
+        android:id="@+id/floormap"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="Map Floor"
+        android:inputType="numberDecimal"
+        />
+
+
+
+</LinearLayout>

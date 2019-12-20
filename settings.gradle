@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='ACR V0.0'
