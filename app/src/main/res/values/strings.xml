@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ACR V0.0</string>
+    <string name="app_name">AUTOVAC</string>
     <string name="tab_text_1">Status</string>
     <string name="tab_text_2">Floor Map</string>
     <string name="tab_text_3">Schedule</string>

@@ -23,7 +23,7 @@ public class Objects extends Fragment {
 
     int[] performance ={R.drawable.alarm,R.drawable.stat2,R.drawable.stat3,R.drawable.stat4,R.drawable.stat4,R.drawable.stat4,R.drawable.stat4};
     String[] val={"data11","data22","data33","data44","data44","data44","data44"};
-    private ArrayAdapter<String> adapter;
+
     Activity act;
 
 
